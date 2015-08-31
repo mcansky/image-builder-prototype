@@ -10,29 +10,8 @@ MODULES=(
     base
     circle-specific
 
-
-    # Languages
-    go
-    java
-    nodejs
-    scala
-    python
-    ruby
-
-    # Browsers
-    chrome
-    firefox
-
-    # DBs
-    mongo
-    pgsql
-    mysql
-
-    # Misc
-    casperjs
-    misc
-    heroku
-    docker
+    # Zenefits Container
+    zenefits
 )
 
 cat helper.sh > $OUTPUT_FILE
